@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta author="Ferid Mammadov" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body> 
+    <H2>
+        <b>Register</b>  
+    </H2>      
+    <form method="post" action="https://httpbin.org/post&quot" id="newform" >
+        <label for="user"> <b>First name</b></label><br>
+        <input style="border:  solid 2px; width: 240px; height: 35px;" id="user" name="user" type="text"required><br><br>
+
+        <label for="">Last name</label><br>
+        <input style="border:  solid 2px; width: 240px; height: 35px;" id="lastname" name="lastname" type="text"><br> <br>      
+
+        <label for="">Email address</label><br>
+        <input style="border:  solid 2px; width: 240px; height: 35px;" id="email" name="email"  type="email" required><br><br>
+
+        <label for="">Pasword</label><br>
+        <input style="border:  solid 2px; width: 240px; height: 35px;" id="password" name="password" type="password" minlength="8" placeholder="Must be at least 8 characters" required><br><br>
+
+        <br>  
+        <input method="post" style=" width: 10em; height: 3.5em;  color: white;
+        border: 2px solid rgba(32,105,189,255);
+        background-color: rgb(0, 153, 255); border-radius:50%;" type="submit" value="Register">  <br>        
+    </form>   
+</body>
+</html>
